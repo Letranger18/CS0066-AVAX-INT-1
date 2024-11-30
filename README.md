@@ -1,15 +1,13 @@
 # Solidity (Intermediate) Project Assessment 1
 
-A simple code project that simulates the process of easter egg hunt. The user has a basket that can be used to pick up eggs, but the it only has a maximum capacity of 10 egss.
+A simple code project that simulates the process of easter egg hunt. The user has a basket that can be used to pick up eggs, but the it only has a maximum capacity of 10 eggs.
 If the basket became full, the user cannot pickup more eggs, and in order to do so, they can use the toss egg function which will decrease the number of eggs inside the basket.
 
 ## Description
 
 My task is to satisfy the following functionalities:
 
-Contract successfully uses ``require()``
-Contract successfully uses ``assert()``
-Contract successfully uses ``revert()`` statements
+Contract successfully uses ``require()``, ``assert()``, and ``revert()`` statements
 
 ## Executing program
 
