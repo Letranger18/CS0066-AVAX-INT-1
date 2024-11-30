@@ -15,7 +15,7 @@ How to run the program
 * Go to https://remix.ethereum.org/ to compile the code
 * Upload the JBasket.sol to the File Explorer
 * Go to the Solidity Compiler (3rd button left side)
-* Make sure that the compiler version matches with the version on the code then click "Compile myToken.sol" (0.8.28 is the version that was used)
+* Make sure that the compiler version matches with the version on the code then click "Compile JBasket.sol" (0.8.28 is the version that was used)
 * Go to Deploy & Run Transaction (4th Button left side) and click on deploy under "contract"
 * Under "Account" copy the address
 * Expand "JBASKET AT (ADDRESS)" under deployed contracts
