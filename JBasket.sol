@@ -28,7 +28,7 @@ contract JBasket{
          revert("That's too much egg!");
       }
       else{    // If there are no eggs in the basket
-         revert("There are no egg to toss");
+         revert("Basket is empty, pick up more eggs");
       }
    }
 
