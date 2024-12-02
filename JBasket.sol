@@ -24,7 +24,7 @@ contract JBasket{
          require(_value > 0,"You cannot toss 0 egg"); // amount to toss cannot be ZERO
          basket -= _value;
       }
-      else if(basket <= _value){  // If the eggs in the basket is less than the amount that will get tossed
+      else if(basket < _value){  // If the eggs in the basket is less than the amount that will get tossed
          revert("That's too much egg!");
       }
       else{    // If there are no eggs in the basket
